@@ -87,6 +87,9 @@ header {
   height: 100%;
 }
 
+.title h1{
+  font-weight: 900;
+} 
 
 .info {
   display: flex;
@@ -169,6 +172,34 @@ button:hover span:after {
     margin: 0 auto;
   }
 }
+
+
+.legend {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -4rem;
+  margin-right: 7rem;
+  font-size: 1.5rem;
+}
+.green{
+  color:green;
+  padding: 0 1rem;
+  border-bottom: 2px solid black;
+}
+
+.red {
+  color: red;
+  padding: 0 1rem;
+  border-bottom: 2px solid black;
+}
+
+.blue {
+  color: #3aa9cf;
+  padding: 0 1rem;
+  font-weight: 900;
+  border-bottom: 2px solid black;
+}
+
 
 /* ---- header ---- */
 

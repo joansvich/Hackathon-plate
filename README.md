@@ -4,9 +4,38 @@
 
 ## How to use
 
-- Fork to your github account
-- Use this file to describe your project, plan, take notes, todos, etc...
-- Have fun
+
+Landing page of a delivery company with a new revollutionary concept of delivery. 
+
+Postopia makes the companies deliveries easier.
+
+As user you can make deliveries on your daily trips, as a company you can save expenses and we help our worl by reduzing emissions.
+
+
+
+
+Company benefits:
+- Low cost delivey
+- Life tracking
+- Ecofriendly
+
+Delivery guy
+- Extra income
+- Flexible
+- Quick start
+
+Plan:
+- Kanban board
+- Readme
+- Previous reseach
+- Competitive/comparative analysis
+- Crazy fours ©
+- Low-fi wireframes
+- Gather ideas
+- High-fi
+- Html
+- CSS
+
 
 ### Files included:
 
