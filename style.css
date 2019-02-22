@@ -13,6 +13,28 @@ body {
   padding: 0;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos{
+  padding: 1rem 2rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.header1 {
+  padding: 0.5rem 1rem;
+}
+
+.header {
+  padding: 0.5rem;
+}
+
 
 /* ---- typography ---- */
 
@@ -29,8 +51,8 @@ body {
   padding-top: 20px;
 }
 .section-title{
-  background-image: url(./images/map.gif);
-  height: 55vh;
+  background-image: url(./images/bg-title.jpg);
+  height: 60vh;
   position: relative; 
   background-size: cover;
   background-position: bottom;
@@ -38,19 +60,21 @@ body {
 
 .mapa {
   text-align: center;
+  padding: 2rem;
 }
 
 .mapa img{
   height: 80vh;
+  border-radius: 1rem;
 }
 
 .title{
   position: absolute;
   width: 100%;
-  text-align: center;
+  text-align: right;
   background: transparent;
-  padding-top: 6rem;
-  color:#3aa9cf;
+  padding: 3rem 1rem;
+  color: white;
   font-size: 36px;
   background-color: black 20%;
   height: 100%;
@@ -58,14 +82,25 @@ body {
 
 .info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 2rem;
+  background-color: #9cd4e7;
+  color: white;
+  font-size: 1.5rem;
 }
-
-.image img {
-  border-radius: 1rem;
+.info ul{
+  list-style: none;
+  padding: 0;
 }
-
+.info img {
+  width: 25%;
+}
+.container2 {
+  justify-content: center;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 .image:hover {
   opacity: 0.3;
 }
