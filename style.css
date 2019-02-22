@@ -27,6 +27,24 @@ body {
   margin-bottom: 20px;
   padding-top: 20px;
 }
+.map{
+  background-image: url(./images/map.gif);
+  height: 55vh;
+  position: relative; 
+  background-size: cover;
+  background-position: bottom;
+  
+}
+.title{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  padding-top: 6rem;
+  color: white;
+  font-size: 36px;
+
+}
 
 @media (min-width: 768px) {
   .container {
