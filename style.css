@@ -25,6 +25,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
 } 
 
 .header1 {
@@ -52,7 +58,8 @@ header {
 }
 .section-title{
   background-image: url(./images/bg-title.jpg);
-  height: 60vh;
+ /* background-image: url();*/
+  height: 80vh;
   position: relative; 
   background-size: cover;
   background-position: bottom;
@@ -79,6 +86,7 @@ header {
   background-color: black 20%;
   height: 100%;
 }
+
 
 .info {
   display: flex;
